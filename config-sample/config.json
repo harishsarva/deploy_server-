@@ -1,0 +1,6 @@
+{
+	"name"              : "deploy-server",
+	"kitchen_path"      : "../chef/",
+	"bootstrap-version" : "11.12.0",
+	"listen_port"       : 8080
+}

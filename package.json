@@ -1,0 +1,32 @@
+{
+  "name": "node-knife-solo-server",
+  "version": "1.0.0",
+  "description": "requirements \tknife-solo \tassumes ssh-forwarding are in place",
+  "main": "knife-solo-server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+	"nconf"              : "^0.6.9",
+	"restify"            : "^2.8.2",
+	"node-mysql"         : "^0.4.0",
+	"nodemon"            : "^1.2.1",
+	"should"             : "^4.0.4",
+	"q"                  : "*",
+	"promotexter-logger" : "git+ssh://git@github.com:promotexter/logger.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pterwin/node-knife-solo-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pterwin/node-knife-solo-server/issues"
+  },
+  "homepage": "https://github.com/pterwin/node-knife-solo-server"
+}
